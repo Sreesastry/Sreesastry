@@ -30,8 +30,7 @@ steps:
 #    pip install -r requirements.txt
 #  displayName: 'Install dependencies'
 
-- script: |
+- script: python Trial.py
 #    pip install pytest pytest-azurepipelines
-#    pytest
-    python trial.py
+#    pytest    
   displayName: 'Test'
